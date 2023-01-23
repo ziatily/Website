@@ -1,0 +1,370 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    margin:0;padding:0;
+    box-sizing:border-box;outline:none;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+body{
+    background-color:azure;
+}
+
+button{
+    margin:20px;
+    padding:10px;
+    width:150px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    border-radius:5px;
+    background-color:rgb(66, 123, 164);
+    font-weight: bolder;
+    font-size:20px;
+    float:left
+}
+.button1{
+    margin-left: 140px;
+}
+button:hover{
+    background-color: rgb(109, 169, 212);
+}
+.span{
+    display:block;
+    color:red;
+    font-style:italic;
+    margin-left:20px;
+}
+aside{
+  margin:20px auto;
+  text-align: center;
+  width:100%;
+  float:right;
+}
+b{
+  margin-left:80px;
+  margin-right: 180px;
+  width:30px;
+  height:30px;
+  background-color: #dcdcdc;
+  border-radius: 50%;
+  display:inline-flex;
+}
+.navbar{
+    position: sticky;
+    top:0;left:0;right:0;
+    z-index:10;
+    display:flex;
+    height:70px;
+    justify-content:space-between;
+    align-items:center;
+    background-color:grey;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    width:100%;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar .a{
+    margin-left: 10px;
+    color:rgb(5, 5, 73);
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .navbar .a span{
+      color:rgb(102, 13, 31);
+    }
+.logo{
+    width:30px;height:40px;
+}
+.navbar1{
+    margin-right:18rem;
+    margin-top: 3px;
+}
+.navbar1 a{
+    background-color:rgb(243, 229, 243);
+    color:rgb(3, 3, 74);
+    padding:1rem 0.5rem;
+    margin-left:1rem ;
+    border-radius:0.5rem;
+}
+.navbar1 a:hover{
+    background-color: rgb(212, 212, 237);
+}
+.navbar2{
+    margin-right: 10px;
+}
+.navbar2 img{
+    width:20px;
+    height:20px;
+    padding-top:2px;
+}
+.navbar2 a{
+    color:black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.an{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.checkbtn{
+    font-size: 30px;
+    float:right;
+    margin-right: 20px;
+    cursor:pointer;
+    display:none;
+}
+#check{
+    display:none;
+}
+
+
+
+form{
+    width:600px;
+    margin:200px auto;
+}
+div{
+    background-color: rgb(38, 150, 150);
+    padding-bottom:20px;
+    border-radius: 10px;
+    width:100%;
+    margin:20px auto;
+    padding-top:100px ;
+    box-shadow:0 .5rem 1rem 1rem rgba(0,0,0,.1);
+    display:none;
+}
+div pre{
+    margin-top:20px;
+}
+.lab{
+    font-size:20px;
+}
+.contfot{
+    max-width:1170px;
+    margin:auto;
+}
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #24262b;
+    padding:70px 0 40px 0;
+    margin-top: 100px;
+}
+.foer{
+    background-color:#404248;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+}
+.rowfot{
+    display:flex;
+    flex-wrap: wrap;
+}
+.colfot{
+    width:25%;
+    padding:0 15px;
+}
+.colfot h4{
+    font-size:18px;
+    color:#ffffff;
+    text-transform:capitalize;
+    margin-bottom:35px;
+    font-weight: bolder;
+    position:relative;
+}
+.colfot h4::before{
+  content:'';
+  position:absolute;
+  left:0;
+  bottom:-10px;
+  height:2px;
+  box-sizing:border-box;
+  width:70px;
+  background-color:crimson;
+}
+.colfot ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.colfot ul li a{
+    font-size:16px;
+    text-transform:capitalize;
+    color:rgb(191, 187, 187);
+    text-decoration:none;
+    margin-bottom:10px;
+    font-weight:bolder;
+    display: block;
+    transition:all 0.3s ease;
+}
+.colfot ul li a:hover{
+    color:coral;
+    padding-left:10px;
+}
+.colfot .social-links a{
+   display: inline-block;
+   height:40px;
+   width:40px;
+   margin:0 10px 10px 0;
+   background-color: rgb(205, 200, 200);
+   border-radius: 50%;
+   color:rgb(173, 47, 73);
+   text-align: center;
+   line-height:40px;
+   transition:all 0.3s ease;
+}
+.colfot .social-links a:hover{
+    background-color:rgb(80, 79, 79) ;
+}
+.rowfot .colfot  .se{
+    width:200px;
+    background-color:rgb(229, 223, 223);
+    border:none;
+    border-bottom: 2px solid rgb(242, 103, 131);
+    border-radius:5px 0 0 5px;
+    height:25px;
+    padding-left: 5px;
+}
+.rowfot .colfot .ser{
+    width:100px;
+    background-color:rgb(229, 223, 223);
+    border:none;
+    border-left:2px solid rgb(242, 103, 131);
+    border-bottom: 2px solid rgb(242, 103, 131);
+    border-radius:0 5px 5px 0;
+    height:25px;
+    padding-left: 5px;
+}
+.rowfot .S section{
+    margin-top: 20px;
+    display:flex;
+}
+.rowfot .S .ser{
+    cursor:pointer;
+  }
+.inputuy{
+    width:60%;
+    padding:10px;
+    border:2px solid rgb(106, 148, 200);
+    margin-left:20px;
+    font-size:20px;
+    border-radius:5px;
+    background-color: rgb(217, 225, 232);
+}
+.checkbtn{
+    font-size: 30px;
+    float:right;
+    cursor:pointer;
+    display:none;
+}
+#check{
+    display:none;
+}
+@media(max-width:1200px){
+    .navbar a{
+        font-size: small;
+    }
+    .navbar2 {
+        margin-left:-100px ;
+    }
+}
+
+@media(max-width:1008px){
+    .navbar1{
+    margin-right:10rem;
+}
+.colfot{
+    width:50%;
+    margin-bottom: 30px;
+}
+
+}
+@media(max-width:881px){
+    .navbar1{
+    margin-right:8rem;
+}
+}
+@media(max-width:848px){
+   
+   .an{
+    background-color: aliceblue;
+    position:fixed;
+    width:100%;
+    height:60vh;
+    top:70px;
+    left:-100%;
+    transition:all .5s;
+    display:block;
+    }
+    .navbar1{
+        position:relative;
+        top:25%;
+        left:40%;
+        transform:translate(-25%,-50%);
+    }
+    .navbar2{
+        position:relative;
+        display:flex;
+        justify-content:center;
+        top:15%;
+        left:30%;
+        transform:translate(-25%,-50%);
+    }
+    a{ 
+        display: block;
+        margin-top: 20px;
+        width:150px;
+        text-align: center;
+    }
+    .colfot{
+        width:100%;
+    
+    }
+   
+    .checkbtn{
+        display:block;
+    }
+    #check:checked ~ .an{
+     left:0;
+    }
+    .footer{
+        margin-bottom:-10px;
+    }
+}
+@media(max-width:632px){
+    form{
+        width:400px;
+    }
+    div{
+        background-color: rgb(38, 150, 150);
+        padding-bottom:20px;
+        border-radius: 10px;
+        width:100%;
+        margin:20px auto;
+        padding-top:100px ;
+        box-shadow:0 .5rem 1rem 1rem rgba(0,0,0,.1);
+        display:none;
+    }
+    div pre{   
+     margin-top:20px;
+    }
+    .foer{
+        margin-bottom: 0;
+    }
+    .lab{
+      margin-left: 20px;
+      font-size:20px;
+      display:block;
+    }
+    .inputuy{
+      display:block;
+    }
+    aside{
+        display:none;
+    }
+    .button1{
+        margin-left: 30px;
+    }
+    }

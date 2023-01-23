@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(154, 238, 238);
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.row .search1{
+    width:200px;
+    border:none;
+    outline:none;
+    border-radius:5px 0 0 5px;
+    height:35px;
+}
+.row .search{
+    width:120px;
+    height:35px;
+    background-color: rgb(78, 228, 78);
+    text-decoration: none;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+.erreur{
+   color:red;
+   margin: 20px;
+}
